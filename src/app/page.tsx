@@ -5,6 +5,8 @@ import { SidebarProvider } from "@/providers/side-bar.provider";
 import Discover from "@/components/discover";
 import KeyFeature from "@/components/key-feature";
 import Ecosystem from "@/components/ecosystem";
+import Unleashing from "@/components/unleashing";
+import EarnReward from "@/components/earn-reward";
 
 export default function Home() {
 
@@ -15,6 +17,8 @@ export default function Home() {
       <Discover />
       <KeyFeature />
       <Ecosystem />
+      <Unleashing />
+      <EarnReward />
     </main>
   );
 }
