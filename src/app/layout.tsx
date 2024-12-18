@@ -1,18 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import Head from "next/head";
-const neueHass = localFont({
-  src: "../../public/fonts/NeueHaasDisplayMediu.woff2",
-  variable: "--font-neueHass",
-  display: "swap",
-});
-
-const marbold = localFont({
-  src: "../../public/fonts/MarboldNormal-Kd2Z.woff2",
-  variable: "--font-marbold",
-  display: "swap",
-});
-
+import { Inter, Chakra_Petch } from 'next/font/google'
 import "./globals.css";
 import AppWalletProvider from "@/providers/wallet.provider";
 import { Suspense } from "react";
@@ -27,6 +16,24 @@ export const metadata: Metadata = {
     url: new URL("https://dashboard.cellprotocol.science/")
   }
 };
+
+const chakra_petch = Chakra_Petch({
+  weight: ['400', '700'],
+  style: ['normal', 'italic'],
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--chakra_petch'
+})
+
+
+const inter = Inter({
+  weight: ['400', '700'],
+  style: ['normal'],
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--inter'
+})
+
 
 export default function RootLayout({
   children,
@@ -68,7 +75,7 @@ export default function RootLayout({
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <body className={`${marbold.variable} ${neueHass.variable}`}>
+      <body className={`${chakra_petch.variable} ${inter.variable}`}>
         <AppWalletProvider>
           <Suspense>
             {children}

@@ -20,8 +20,8 @@ const config: Config = {
 				'category-tag': 'linear-gradient(180deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.12) 100%)'
   		},
   		fontFamily: {
-  			neueHass: ['var(--font-neueHass)'],
-  			marbold: ['var(--font-marbold)']
+			chakra_petch: ['var(--chakra_petch)'],
+  			inter: ['var(--inter)']
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
