@@ -4,6 +4,7 @@ import Header from "@/components/header";
 import { SidebarProvider } from "@/providers/side-bar.provider";
 import Discover from "@/components/discover";
 import KeyFeature from "@/components/key-feature";
+import Ecosystem from "@/components/ecosystem";
 
 export default function Home() {
 
@@ -13,6 +14,7 @@ export default function Home() {
       <Header />
       <Discover />
       <KeyFeature />
+      <Ecosystem />
     </main>
   );
 }
