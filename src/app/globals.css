@@ -48,6 +48,12 @@ background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
+.text-btn-custom{
+  background: linear-gradient(90deg, #FF6161 0%, #FF5100 52.2%, #F90 103.94%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
 @layer base {
   :root {
     --background: 0 0% 100%;
