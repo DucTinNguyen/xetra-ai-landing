@@ -17,7 +17,8 @@ const config: Config = {
   			'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
 				'category-gradient': 'linear-gradient(90deg, rgba(140, 227, 57, 0.40) -5.56%, rgba(140, 227, 57, 0.00) 100%), rgba(255, 255, 255, 0.20)',
 				'category-tag-active': 'radial-gradient(50.83% 100% at 50% 0%, rgba(138, 255, 71, 0.50) 0%, rgba(59, 153, 43, 0.08) 100%)',
-				'category-tag': 'linear-gradient(180deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.12) 100%)'
+				'category-tag': 'linear-gradient(180deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.12) 100%)',
+				'launch-app': 'linear-gradient(130deg, #8EC9FF 9%, #FF306E 56%, #F1D789 95%)'
   		},
   		fontFamily: {
 			chakra_petch: ['var(--chakra_petch)'],

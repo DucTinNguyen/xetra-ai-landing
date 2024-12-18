@@ -1,11 +1,14 @@
 "use client";
+import InformationSocial from "@/components/sub-header";
+import Header from "@/components/header";
 import { SidebarProvider } from "@/providers/side-bar.provider";
 
 export default function Home() {
 
   return (
-    <main className="flex fixed w-full">
-      Hi
+    <main>
+      <InformationSocial />
+      <Header />
     </main>
   );
 }
