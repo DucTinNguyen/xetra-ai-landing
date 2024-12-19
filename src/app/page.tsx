@@ -7,6 +7,7 @@ import KeyFeature from "@/components/key-feature";
 import Ecosystem from "@/components/ecosystem";
 import Unleashing from "@/components/unleashing";
 import EarnReward from "@/components/earn-reward";
+import Explore from "@/components/explore";
 
 export default function Home() {
 
@@ -17,6 +18,7 @@ export default function Home() {
       <Discover />
       <KeyFeature />
       <Ecosystem />
+      <Explore />
       <Unleashing />
       <EarnReward />
     </main>

@@ -22,7 +22,8 @@ const config: Config = {
 				'btn-custom': 'linear-gradient(177deg, rgba(255, 48.37, 110.36, 0.08) 0%, rgba(250, 204, 105, 0.34) 100%)',
 				'bg-custom': 'linear-gradient(180deg, rgba(255, 255, 255, 0.20) -7.89%, rgba(255, 153, 0, 0.10) 109.21%)',
 				'discover-card': 'linear-gradient(180deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.00) 100%)',
-				'get-started': 'linear-gradient(180deg, rgba(9, 9, 11, 0.00) 0%, rgba(9, 9, 11, 0.03) 100%)'
+				'get-started': 'linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(180deg, rgba(9, 9, 11, 0) 0%, rgba(9, 9, 11, 0.03) 100%)',
+				'explore': 'linear-gradient(180deg, #FFF5F5 0%, #FFF9F0 100%)'
   		},
   		fontFamily: {
 			chakra_petch: ['var(--chakra_petch)'],

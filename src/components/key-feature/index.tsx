@@ -5,9 +5,9 @@ import noCode from '@/icon/no-code.svg'
 import integration from '@/icon/integration.svg'
 import menozation from '@/icon/menozation.svg'
 import Image from 'next/image'
-import feature1 from '@/images/feature-1.svg'
+import feature1 from '@/images/feature1.png'
 import feature2 from '@/images/feature-2.png'
-import feature3 from '@/images/feature-3.svg'
+import feature3 from '@/images/feature3.png'
 const KeyFeature = () => {
 
 

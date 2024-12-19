@@ -5,15 +5,16 @@ import ufo from '@/icon/ufo.svg'
 import BtnCustom from '../button/btn-custom'
 import discover1 from '@/images/discover1.png'
 import discover2 from '@/images/discover2.png'
+import bgDiscover from '@/images/bgDiscover.png'
 const Discover = () => {
   return (
       <main className='w-full lg:h-[918px] my-[60px]'>
           <section className='w-full lg:max-w-[1200px] 2xl:max-w-[1340px] h-full mx-auto relative py-[60px]'>
-              <Image src={bgCover} alt='cover' fill />
+              <Image src={bgDiscover} alt='cover' fill />
               <section className='relative z-10'>
                   <BtnCustom icon={ufo} title='About Xetra' className='mx-auto w-[137px] h-[36px]' />
-                  <h2 className='text-[40px] text-white font-chakra_petch text-center my-4'>Discover Slinky Web3 AI Chain</h2>
-                  <p className='text-sm font-medium text-[#D8D8D8] font-inter text-center'>Infrastructure to Ship Tokenized AI Apps Faster</p>
+                  <h2 className='text-[40px] text-[#0E121B] font-semibold font-chakra_petch text-center my-4'>Discover Slinky Web3 AI Chain</h2>
+                  <p className='text-base font-medium text-[#666] font-inter text-center'>Infrastructure to Ship Tokenized AI Apps Faster</p>
                   <section className='flex items-center gap-4 justify-center mt-12 font-inter'>
                       <div className='w-[512px]'>
                           <div className='bg-discover-card bg-[#000000] px-6 py-4 h-[164px] flex items-center rounded-[24px]'>
