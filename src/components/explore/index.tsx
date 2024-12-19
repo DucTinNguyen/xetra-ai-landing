@@ -55,7 +55,7 @@ const Explore = () => {
         }
     ];
   return (
-      <main>
+      <main className='my-[100px]'>
           <section className='w-full lg:max-w-[1200px] 2xl:max-w-[1340px] h-full mx-auto relative py-6 lg:h-[1072px]'>
               <div className='w-full h-[702px] bg-explore rounded-[32px] pt-12'>
                   <h2 className='text-[#0E121B] text-[40px] font-semibold text-center'>Build your dApps with no-code and AI</h2>

@@ -8,6 +8,8 @@ import Ecosystem from "@/components/ecosystem";
 import Unleashing from "@/components/unleashing";
 import EarnReward from "@/components/earn-reward";
 import Explore from "@/components/explore";
+import Decentralize from "@/components/decentralize";
+import Footer from "@/components/footer";
 
 export default function Home() {
 
@@ -18,9 +20,11 @@ export default function Home() {
       <Discover />
       <KeyFeature />
       <Ecosystem />
+      <Decentralize />
       <Explore />
       <Unleashing />
       <EarnReward />
+      <Footer />
     </main>
   );
 }
