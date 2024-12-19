@@ -7,6 +7,7 @@ import personal from '@/icon/personal.svg'
 import image from '@/icon/image.svg'
 import api from '@/icon/api.svg'
 import domain from '@/icon/domain.svg'
+import { motion } from "motion/react"
 const Unleashing = () => {
     const menuItems = [
         {
@@ -42,10 +43,21 @@ const Unleashing = () => {
                         <ul className='flex flex-col mt-8 gap-3'>
                             {menuItems.map((item, index) => {
                                 return (
-                                    <div key={index} className='bg-[rgba(255,102,0,0.05)] flex items-center gap-1 px-4 py-2 rounded-full border border-[rgba(255,102,0,0.16)]'>
+                                    <motion.div
+                                        key={index}
+                                        initial={
+                                            {
+                                                opacity: 0,
+                                            }
+                                        }
+                                        whileInView={{
+                                            opacity: 1,
+                                        }}
+                                        
+                                        className='bg-[rgba(255,102,0,0.05)] flex items-center gap-1 px-4 py-2 rounded-full border border-[rgba(255,102,0,0.16)]'>
                                         <Image src={item.icon} alt='icon' />
                                         <span className='text-sm font-chakra_petch text-[#FF6600] font-medium'>{item.title}</span>
-                                    </div>
+                                    </motion.div>
                                 )
                             })}
                         </ul>
