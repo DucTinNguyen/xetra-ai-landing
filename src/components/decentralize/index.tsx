@@ -11,9 +11,9 @@ const Decentralize = () => {
         'Automate logic across multiple chains'
     ]
     return (
-        <main className='h-[340px] relative my-[100px]'>
-            <div className='w-full h-[44px] bg-launch-app rotate-[-1.5deg] py-3 px-[60px] absolute top-[-21px] left-0 '>
-                <Marquee direction='right' className='abso'>
+        <main className='h-[340px] w-full relative my-[100px]'>
+            <div className='w-[99.99%] h-[44px] 2xl:h-[50px] bg-launch-app rotate-[-1.5deg] py-3 px-[60px] absolute top-[-21px] 2xl:top-[-25px] left-0'>
+                <Marquee direction='right' className='overflow-hidden'>
                     {Array.from({ length: 20 }).map((_, index) => {
                         return <div key={index} className='flex items-center gap-5 mx-5'>
                             <Image src={ic_setting} alt='icon' />
@@ -39,8 +39,8 @@ const Decentralize = () => {
                     
                 </div>
             </div>
-            <div className='w-full h-[44px] bg-[#DDDDDD] rotate-[-1.5deg] py-3 px-[60px] absolute bottom-[-21px] left-0 '>
-                <Marquee className='abso'>
+            <div className='w-[99.99%] h-[44px] 2xl:h-[50px] bg-[#DDDDDD] rotate-[-1.5deg] py-3 px-[60px] absolute bottom-[-21px] 2xl:bottom-[-25px] left-0'>
+                <Marquee className='absolute'>
                     {Array.from({ length: 20 }).map((_, index) => {
                         return <div key={index} className='flex items-center gap-5 mx-5'>
                             <Image src={ic_setting_1} alt='icon' />

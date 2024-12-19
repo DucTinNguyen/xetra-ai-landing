@@ -10,6 +10,7 @@ import EarnReward from "@/components/earn-reward";
 import Explore from "@/components/explore";
 import Decentralize from "@/components/decentralize";
 import Footer from "@/components/footer";
+import Banner from "@/components/banner";
 
 export default function Home() {
 
@@ -17,6 +18,7 @@ export default function Home() {
     <main>
       <InformationSocial />
       <Header />
+      <Banner />
       <Discover />
       <KeyFeature />
       <Ecosystem />
