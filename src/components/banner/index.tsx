@@ -16,10 +16,19 @@ const Banner = () => {
     return (
         <main className='py-8'>
             <section className='w-full lg:max-w-[1200px] 2xl:max-w-[1340px] mx-auto'>
-                <div>
-                    <BtnCustom icon={space} title='Beta release' className='w-[142px] h-[36px] mx-auto' />
+                <div className=''>
+                    <BtnCustom icon={space} title='Beta release' className='w-[142px] h-[36px] mx-auto relative z-10' />
                     <div className='h-[388px] max-w-full'>
-                        <Image src={banner} alt='banner' className='w-full' />
+                        <video
+                            className="absolute w-full top-0 left-0 h-full mx-auto object-cover mix-blend-multiply"
+                            src="videos/banner.webm"
+                            typeof="video/mp4"
+                            preload="auto"
+                            autoPlay
+                            muted
+                            loop
+                            playsInline
+                        ></video>
                     </div>
                     <div>
                         <h2 className='text-[#0E121B] text-[64px] font-normal leading-[84px] text-banner'>Unleashing AI dApps for all</h2>

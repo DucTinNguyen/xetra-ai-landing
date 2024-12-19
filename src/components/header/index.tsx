@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react';
+import BtnGradient from '../button/btn-gradient';
 
 const Header = () => {
 
@@ -43,7 +44,7 @@ const Header = () => {
     },[])
 
   return (
-      <main className='h-[76px] py-5'>
+      <main className='h-[76px] py-5 relative z-10'>
           <section className='w-full lg:max-w-[1200px] 2xl:max-w-[1340px] mx-auto flex items-center justify-between'>
               <figure>
                   <Image src={logo} alt='logo' priority/>
@@ -56,9 +57,10 @@ const Header = () => {
                       </div>
                   })}
               </section>
-              <button className='p-[2px] rounded-lg w-[134px] h-[36px] bg-launch-app'>
+              {/* <button className='p-[2px] rounded-lg w-[134px] h-[36px] bg-launch-app'>
                   <span className='bg-[#0E121B] flex items-center justify-center h-full text-sm font-semibold font-inter rounded-lg text-white'>Launch App</span>
-              </button>
+              </button> */}
+              <BtnGradient title='Launch App' className='w-[134px] h-[36px]'/>
               
           </section>
     </main>
