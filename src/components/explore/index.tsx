@@ -62,9 +62,7 @@ const Explore = () => {
                       <BtnGradient title='Start Building' className='w-[123px]' />
                       <BtnNormal title='Explore Marketplace' className='w-[169px]'/>
                   </div>
-                  <figure className='h-[142px]'>
-                      <Image src={explore} alt='explore' priority/>
-                  </figure>
+                  <Image src={explore} alt='explore' priority className='w-full'/>
               </div>
               <section className='mt-20 lg:mt-0 px-4 lg:px-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:absolute lg:bottom-0'>
                   {cards.map((card, index) => (
