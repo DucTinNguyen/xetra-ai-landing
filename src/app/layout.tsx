@@ -7,13 +7,13 @@ import AppWalletProvider from "@/providers/wallet.provider";
 import { Suspense } from "react";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://dashboard.cellprotocol.science/"),
+  // metadataBase: new URL("https://dashboard.cellprotocol.science/"),
   title: "No Code. No Boundaries.Infinite Creativity.",
   description: "Turn your AI dreams into reality with Xetra AI - no coding, no limits, just unstoppable innovation on a censorship-resistant blockchain.",
   openGraph: {
     title: "No Code. No Boundaries.Infinite Creativity.",
     description: "Turn your AI dreams into reality with Xetra AI - no coding, no limits, just unstoppable innovation on a censorship-resistant blockchain.",
-    url: new URL("https://dashboard.cellprotocol.science/")
+    // url: new URL("https://dashboard.cellprotocol.science/")
   }
 };
 
@@ -49,9 +49,9 @@ export default function RootLayout({
           content="Turn your AI dreams into reality with Xetra AI - no coding, no limits, just unstoppable innovation on a censorship-resistant blockchain."
         />
         <meta property="og:image" content="./opengraph-image.png"></meta>
-        <meta property="og:url" content="https://dashboard.cellprotocol.science"></meta>
+        {/* <meta property="og:url" content="https://dashboard.cellprotocol.science"></meta> */}
         <meta property="og:title" content="No Code. No Boundaries.Infinite Creativity."></meta>
-        <meta property="og:site_name" content="https://dashboard.cellprotocol.science"></meta>
+        {/* <meta property="og:site_name" content="https://dashboard.cellprotocol.science"></meta> */}
         <meta
           property="og:description"
           content="Turn your AI dreams into reality with Xetra AI - no coding, no limits, just unstoppable innovation on a censorship-resistant blockchain."
