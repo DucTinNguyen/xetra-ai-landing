@@ -8,7 +8,7 @@ import discover2 from '@/images/discover2.png'
 import bgDiscover from '@/images/bgDiscover.png'
 const Discover = () => {
   return (
-      <main className='w-full lg:h-[918px] my-[60px]'>
+      <main className='w-full lg:h-[918px] my-[60px]' id='about'>
           <section className='w-full lg:max-w-[1200px] 2xl:max-w-[1340px] h-full mx-auto relative py-10 lg:py-[60px]'>
               <Image src={bgDiscover} alt='cover' fill />
               <section className='relative z-10'>

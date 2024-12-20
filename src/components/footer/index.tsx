@@ -34,6 +34,12 @@ const Footer = () => {
         { href: 'https://medium.com/xetra', label: 'Medium', icon: medium },
         { href: 'https://github.com/xetra', label: 'GitHub', icon: github },
     ];
+    const infoLinks = [
+        { href: '/#', label: 'Etherscan' },
+        { href: '/ide', label: 'Dexscreener' },
+        { href: '/marketplace', label: 'Dextools' },
+        { href: '/marketplace', label: 'Buy' },
+    ];
 
     const backToTop = () => {
         window.scrollTo(0, 0);
@@ -47,7 +53,7 @@ const Footer = () => {
                       <Image src={logoFooter} alt='logo' />
                   </div>
                   <div className='w-full lg:w-fit px-4 lg:px-0'>
-                      <div className='flex justify-between w-full lg:grid lg:grid-cols-3 lg:gap-[120px] font-inter'>
+                      <div className='grid grid-cols-3 lg:grid-cols-4 gap-4 lg:gap-[120px] font-inter'>
                           {/* Our Chain Section */}
                           <div>
                               <h2 className="text-[#666] font-semibold mb-2 text-sm font-chakra_petch">OUR CHAIN</h2>
@@ -70,6 +76,23 @@ const Footer = () => {
                               <h2 className="text-[#666] font-semibold mb-2 text-sm font-chakra_petch">PRODUCTS</h2>
                               <ul className="space-y-2">
                                   {productLinks.map((link) => (
+                                      <li key={link.label}>
+                                          <Link
+                                              href={link.href}
+                                              className="hover:text-[#FF6600] transition-colors py-2 text-[#D8D8D8]"
+                                          >
+                                              {link.label}
+                                          </Link>
+                                      </li>
+                                  ))}
+                              </ul>
+                          </div>
+
+                          {/* Info Section */}
+                          <div>
+                              <h2 className="text-[#666] font-semibold mb-2 text-sm font-chakra_petch">Info</h2>
+                              <ul className="space-y-2">
+                                  {infoLinks.map((link) => (
                                       <li key={link.label}>
                                           <Link
                                               href={link.href}

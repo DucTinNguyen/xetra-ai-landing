@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import BtnGradient from '../button/btn-gradient'
 import BtnNormal from '../button/btn-normal'
 import explore from '@/images/explore.svg'
+import exploreMb from '@/images/explore-mobile.svg'
 import explore1 from '@/images/explore1.png'
 import explore2 from '@/images/explore2.png'
 import explore3 from '@/images/explore3.png'
@@ -62,7 +63,9 @@ const Explore = () => {
                       <BtnGradient title='Start Building' className='w-[123px]' />
                       <BtnNormal title='Explore Marketplace' className='w-[169px]'/>
                   </div>
-                  <Image src={explore} alt='explore' priority className='w-full'/>
+                  <Image src={explore} alt='explore' priority className='w-full hidden md:block' />
+                  <Image src={explore} alt='explore' priority className='w-full block md:hidden' />
+
               </div>
               <section className='mt-20 lg:mt-0 px-4 lg:px-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:absolute lg:bottom-0'>
                   {cards.map((card, index) => (

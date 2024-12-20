@@ -45,7 +45,7 @@ const KeyFeature = () => {
     ]
 
   return (
-    <main>
+      <main id='features'>
           <section className='w-full lg:max-w-[1200px] 2xl:max-w-[1340px] h-full mx-auto relative py-[60px]'>
               <div className='flex flex-col lg:flex-row lg:justify-between lg:items-center px-4 lg:px-0'>
                   <div className='w-full lg:w-[379px]'>

@@ -15,11 +15,11 @@ const Unleashing = () => {
             icon: personal
         },
         {
-            title: 'Image Analysis Applications',
+            title: 'Powered by Xetra AI APIs',
             icon: image
         },
         {
-            title: 'Integrate APIs into 3P UX Outputs',
+            title: 'Integrate APIs into Xetra AI UX Outputs',
             icon: api
         },
         {
@@ -28,7 +28,7 @@ const Unleashing = () => {
         }
     ];
     return (
-        <main>
+        <main id='why-xetra'>
             <section className='w-full lg:max-w-[1200px] 2xl:max-w-[1340px] h-full mx-auto relative py-10 lg:py-[60px]'>
                 <BtnCustom icon={message} title='Why Xetra AI' className='w-[143px] mx-auto h-[36px]' />
                 <h2 className='text-[32px] lg:text-[40px] text-[#0E121B] font-semibold font-chakra_petch text-center my-4'>Releasing a New Era of AI dApps with Xetra AI</h2>

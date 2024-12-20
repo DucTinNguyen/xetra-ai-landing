@@ -6,7 +6,7 @@ import ecosystem2 from '@/images/ecosystem2.png'
 import Image from 'next/image'
 const Ecosystem = () => {
   return (
-    <main>
+      <main id='products'>
           <section className='w-full lg:max-w-[1200px] 2xl:max-w-[1340px] h-full mx-auto relative py-10 lg:py-[60px]'>
               <BtnCustom icon={elementPlus} title='Ecosystem Products' className='w-[194px] mx-auto h-[36px]' />
               <h2 className='text-[32px] lg:text-[40px] text-[#0E121B] font-semibold font-chakra_petch text-center my-4'>Design for seamless mass adoption</h2>
