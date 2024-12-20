@@ -47,14 +47,14 @@ const KeyFeature = () => {
   return (
     <main>
           <section className='w-full lg:max-w-[1200px] 2xl:max-w-[1340px] h-full mx-auto relative py-[60px]'>
-              <div className='flex justify-between items-center'>
-                  <div className='w-[379px]'>
+              <div className='flex flex-col lg:flex-row lg:justify-between lg:items-center px-4 lg:px-0'>
+                  <div className='w-full lg:w-[379px]'>
                       <BtnCustom icon={key} title='Key Features' className='w-[146px] h-[36px]' />
-                      <p className='text-[40px] leading-[46px] text-[#0E121B] font-semibold tracking-[-0.8px] mt-4'>Your best choice for AI dApps home suite</p>
+                      <p className='text-[32px] lg:text-[40px] leading-[32px] lg:leading-[46px] text-[#0E121B] font-semibold tracking-[-0.8px] mt-4'>Your best choice for AI dApps home suite</p>
                   </div>
-                  <div className='w-[567px]'>
+                  <div className='w-full lg:w-[567px] my-4 lg:my-0'>
                       <p className='text-[#666] font-inter text-sm font-normal'>Quickly create, deploy, and profit from AI applications without coding, while ensuring security and decentralization with blockchain integration.</p>
-                      <ul className='flex mt-4 gap-3'>
+                      <ul className='flex flex-wrap mt-4 gap-3'>
                           {list.map((item, index) => {
                               return (
                                   <div key={index} className='flex gap-1 px-4 py-2 rounded-full border border-[rgba(255,102,0,0.16)]'>
@@ -66,7 +66,7 @@ const KeyFeature = () => {
                         </ul>
                   </div>
               </div>
-              <div className='grid grid-cols-3 gap-6 mt-[60px]'>
+              <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-[60px] px-4'>
                   {product.map((product, index) => { 
                       return <div key={index} className='rounded-[20px] border border-[#EAEAEA] bg-[#FAFAFA] pt-4'>
                           <figure className='flex justify-center'>

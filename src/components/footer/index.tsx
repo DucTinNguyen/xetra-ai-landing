@@ -42,8 +42,8 @@ const Footer = () => {
   return (
       <main className='bg-[#1B1B1B] pt-10 mt-[100px]'>
           <section className='w-full lg:max-w-[1200px] 2xl:max-w-[1340px] h-full mx-auto relative py-6'>
-              <section className='flex items-start justify-between'>
-                  <div className='flex flex-col gap-3 w-[320px]'>
+              <section className='flex flex-col gap-8 lg:flex-row px-4 lg:px-0 items-start justify-between'>
+                  <div className='flex flex-col gap-3 px-4 lg:px-0 w-full lg:w-[320px]'>
                       <Image src={logoFooter} alt='logo' />
                       <p className='text-[#D8D8D8] text-lg font-medium'>Stay connected for the latest news</p>
                       <p className='text-sm text-[#AEAEAE] font-normal'>Join our newsletter to receive updates on new features and releases.</p>
@@ -53,8 +53,8 @@ const Footer = () => {
                       </form>
                       <p className='text-sm text-[#666] font-normal'>By subscribing, you agree to our Privacy Policy and consent to receive updates from our company</p>
                   </div>
-                  <div>
-                      <div className='grid grid-cols-3 gap-[120px] font-inter'>
+                  <div className='w-full lg:w-fit px-4 lg:px-0'>
+                      <div className='flex justify-between w-full lg:grid lg:grid-cols-3 lg:gap-[120px] font-inter'>
                           {/* Our Chain Section */}
                           <div>
                               <h2 className="text-[#666] font-semibold mb-2 text-sm font-chakra_petch">OUR CHAIN</h2>

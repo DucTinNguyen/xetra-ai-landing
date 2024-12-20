@@ -29,15 +29,15 @@ const Unleashing = () => {
     ];
     return (
         <main>
-            <section className='w-full lg:max-w-[1200px] 2xl:max-w-[1340px] h-full mx-auto relative py-[60px]'>
+            <section className='w-full lg:max-w-[1200px] 2xl:max-w-[1340px] h-full mx-auto relative py-10 lg:py-[60px]'>
                 <BtnCustom icon={message} title='Why Xetra AI' className='w-[143px] mx-auto h-[36px]' />
-                <h2 className='text-[40px] text-[#0E121B] font-semibold font-chakra_petch text-center my-4'>Unleashing an ecosystem of apps</h2>
-                <p className='w-[611px] mx-auto text-center text-sm font-inter text-[#666]'>Discover AI dApps and workflows built by our community.Direct in our LoveAI app store and other platforms like Telegram and WhatsApp.</p>
-                <section className='flex items-start justify-between mt-7'>
-                    <div className='rounded-[24px] border border-[#EAEAEA] bg-[#FAFAFA] w-[700px]'>
+                <h2 className='text-[32px] lg:text-[40px] text-[#0E121B] font-semibold font-chakra_petch text-center my-4'>Unleashing an ecosystem of apps</h2>
+                <p className='w-full lg:w-[611px] mx-auto text-center text-sm font-inter text-[#666] px-4 lg:px-0'>Discover AI dApps and workflows built by our community.Direct in our LoveAI app store and other platforms like Telegram and WhatsApp.</p>
+                <section className='flex flex-col gap-5 lg:flex-row items-start justify-between mt-7 px-4 lg:px-0'>
+                    <div className='rounded-[24px] border border-[#EAEAEA] bg-[#FAFAFA] w-full lg:w-[700px]'>
                         <Image src={svg} alt='' />
                     </div>
-                    <div className='w-[430px] border border-[#EAEAEA] bg-[#FAFAFA] py-8 px-12 rounded-[24px]'>
+                    <div className='w-full lg:w-[430px] border border-[#EAEAEA] bg-[#FAFAFA] p-8 lg:py-8 lg:px-12 rounded-[24px]'>
                         <h3 className='text-[#1B1B1B] font-semibold text-xl'>What can you build?</h3>
                         <p className='text-[#666666] text-sm font-normal'>In partnership with Questflows 3P APIs.</p>
                         <ul className='flex flex-col mt-8 gap-3'>

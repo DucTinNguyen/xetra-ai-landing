@@ -11,16 +11,16 @@ import Image from 'next/image'
 const socials = [telegram, x, medium, github]
 const InformationSocial = () => {
   return (
-    <main className="bg-[#1B1B1B] h-10">
-      <section className="w-full lg:max-w-[1200px] 2xl:max-w-[1340px] mx-auto flex items-center justify-between">
-        <div className="px-3 py-2 flex items-center gap-x-[10px]">
+    <main className="bg-[#1B1B1B] h-[44px] lg:h-10">
+      <section className="w-full lg:max-w-[1200px] 2xl:max-w-[1340px] mx-auto flex items-center h-full justify-between">
+        <div className="px-3 py-2 flex items-center justify-center lg:justify-start w-full lg:w-fit gap-x-[10px]">
           <span className="w-[6px] h-[6px] rounded-full bg-[#FF6A00] inline-block"></span>
           <span className="text-white text-xs font-inter font-medium">
             Unleashing an ecosystem of apps
           </span>
           <Image src={ic_arrow_right} alt="icon" />
         </div>
-        <section className='flex items-center'>
+        <section className=' hidden lg:flex items-center'>
           <div className='flex items-center px-4 py-1'>
             <span className='text-white text-sm font-normal text-clip'>let's connect</span>
             <figure className='flex gap-x-4 ml-4'>
