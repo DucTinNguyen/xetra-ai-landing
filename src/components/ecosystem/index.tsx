@@ -15,7 +15,7 @@ const Ecosystem = () => {
                       <Image src={ecosystem1} alt='' fill />
                       <div className='relative p-8 lg:p-12 font-inter text-white'>
                           <h5 className='text-2xl font-semibold'>Xetra AI assistant</h5>
-                          <p className='text-[#D8D8D8] text-base font-normal mt-3 mb-6'>Build your dApps with personal AI assistant with all power of OpenAI and Xetra Engine</p>
+                          <p className='text-[#D8D8D8] text-base font-normal mt-3 mb-6'>Develop your dApps with a personal AI assistant, combining the power of OpenAI and Xetra Engine.</p>
                           <button className='px-4 py-2 bg-white text-[#1B1B1B] capitalize font-semibold text-sm rounded-lg shadow-[0px_1px_2px_0px_rgba(9,9,11,0.12),0px_0px_0px_1px_rgba(9,9,11,0.08)]'>try now</button>
                       </div>
                   </div>
@@ -23,7 +23,7 @@ const Ecosystem = () => {
                       <Image src={ecosystem2} alt='' fill />
                       <div className='relative p-8 lg:p-12 font-inter text-white'>
                           <h5 className='text-2xl font-semibold'>Xetra App</h5>
-                          <p className='text-[#D8D8D8] text-base font-normal mt-3 mb-6'>Build, monitor, manage and analyze your dApps in one place</p>
+                          <p className='text-[#D8D8D8] text-base font-normal mt-3 mb-6'>Build track, and manage and perfect your AI dApps in one unified space.</p>
                           <button className='px-4 py-2 bg-white text-[#1B1B1B] capitalize font-semibold text-sm rounded-lg shadow-[0px_1px_2px_0px_rgba(9,9,11,0.12),0px_0px_0px_1px_rgba(9,9,11,0.08)]'>Get Started</button>
                       </div>
                   </div>

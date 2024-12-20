@@ -11,19 +11,19 @@ import { motion } from "motion/react"
 const Unleashing = () => {
     const menuItems = [
         {
-            title: 'Personalized agents',
+            title: 'Customizable Agents',
             icon: personal
         },
         {
-            title: 'Image processing applications',
+            title: 'Image Analysis Applications',
             icon: image
         },
         {
-            title: 'API integrations into 3P UX output',
+            title: 'Integrate APIs into 3P UX Outputs',
             icon: api
         },
         {
-            title: 'Domain specific fine tuning',
+            title: 'Tailored Fine-tuning for Your Needs',
             icon: domain
         }
     ];
@@ -31,15 +31,15 @@ const Unleashing = () => {
         <main>
             <section className='w-full lg:max-w-[1200px] 2xl:max-w-[1340px] h-full mx-auto relative py-10 lg:py-[60px]'>
                 <BtnCustom icon={message} title='Why Xetra AI' className='w-[143px] mx-auto h-[36px]' />
-                <h2 className='text-[32px] lg:text-[40px] text-[#0E121B] font-semibold font-chakra_petch text-center my-4'>Unleashing an ecosystem of apps</h2>
-                <p className='w-full lg:w-[611px] mx-auto text-center text-sm font-inter text-[#666] px-4 lg:px-0'>Discover AI dApps and workflows built by our community.Direct in our LoveAI app store and other platforms like Telegram and WhatsApp.</p>
+                <h2 className='text-[32px] lg:text-[40px] text-[#0E121B] font-semibold font-chakra_petch text-center my-4'>Releasing a New Era of AI dApps with Xetra AI</h2>
+                <p className='w-full lg:w-[611px] mx-auto text-center text-sm font-inter text-[#666] px-4 lg:px-0'>Explore AI dApps and workflows created by our community, easily accessible through the Xetra AI App Store and platforms like Telegram and WhatsApp.</p>
                 <section className='flex flex-col gap-5 lg:flex-row items-start justify-between mt-7 px-4 lg:px-0'>
                     <div className='rounded-[24px] border border-[#EAEAEA] bg-[#FAFAFA] w-full lg:w-[700px]'>
                         <Image src={svg} alt='' />
                     </div>
                     <div className='w-full lg:w-[430px] border border-[#EAEAEA] bg-[#FAFAFA] p-8 lg:py-8 lg:px-12 rounded-[24px]'>
-                        <h3 className='text-[#1B1B1B] font-semibold text-xl'>What can you build?</h3>
-                        <p className='text-[#666666] text-sm font-normal'>In partnership with Questflows 3P APIs.</p>
+                        <h3 className='text-[#1B1B1B] font-semibold text-xl'>What can you bring to life?</h3>
+                        <p className='text-[#666666] text-sm font-normal'>Powered by Questflows 3P APIs.</p>
                         <ul className='flex flex-col mt-8 gap-3'>
                             {menuItems.map((item, index) => {
                                 return (

@@ -28,10 +28,9 @@ const Banner = () => {
             <section className='w-full lg:max-w-[1200px] 2xl:max-w-[1340px] mx-auto relative z-10'>
                 <BtnCustom icon={space} title='Beta release' className='w-[142px] h-[36px] mx-auto relative z-10' />
                 <div className='mt-20 px-4'>
-                    <h2 className='text-[#0E121B] text-[40px] lg:text-[64px] font-normal leading-[46px] lg:leading-[84px] text-banner'>Unleashing AI dApps for all</h2>
-                    <p className='w-full lg:w-[514px] mx-auto text-center text-base font-inter text-[#666] mt-3 mb-6'>Create, deploy, and monetize AI dApps with our no-code app deployer,built on censorship-resistant blockchain infrastructure.</p>
+                    <h2 className='text-[#0E121B] text-[40px] lg:text-[64px] font-normal leading-[46px] lg:leading-[84px] text-banner'>No Code. No Boundaries. <br /> Infinite Creativity.</h2>
+                    <p className='w-full lg:w-[514px] mx-auto text-center text-base font-inter text-[#666] mt-3 mb-6'>Turn your AI dreams into reality with Xetra AI - no coding, no limits, just unstoppable innovation on a censorship-resistant blockchain.</p>
                     <div className='w-[344px] mx-auto flex items-center justify-center gap-4'>
-                        <Image src={user} alt='user' width={80} />
                         <button className='px-6 py-3 bg-launch-app-1 border-[#FF6A001F] rounded-lg overflow-hidden text-[#FFFFFF] text-sm font-semibold'>Launch App</button>
                     </div>
                 </div>

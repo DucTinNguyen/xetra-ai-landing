@@ -13,8 +13,8 @@ const EarnReward = () => {
                       <Image src={hero} alt='' fill/>
                       <div className='relative flex items-center w-full h-full justify-center z-10'>
                           <div className='px-4 lg:px-0'>
-                              <h4 className='text-[#1B1B1B] text-[24px] font-semibold text-center'>Design in minutes. Publish dApps in seconds. Earn rewards.</h4>
-                              <p className='w-full lg:w-[760px] text-sm text-center my-6'>Turn your AI ideas into a real global apps. Xetra AI's engine makes it possible for anyone, anywhere to create and deploy AI dApps without coding knowledge or geographical restrictions.</p>
+                              <h4 className='text-[#1B1B1B] text-[24px] font-semibold text-center'>Build fast. Launch faster. Profit smarter.</h4>
+                              <p className='w-full lg:w-[760px] text-sm text-center my-6'>Bring your visions to life with Xetra AI. Our powerful engine enables anyone, anywhere, at anytime to own their AI dApps without effort - no coding skills or borders holding you back.</p>
                               <div className='flex items-center justify-center gap-3'>
                                   <BtnGradient title='Get Started' className='w-[134px] h-[36px]' />
                                   <BtnNormal title='Contact us' className='w-[107px] h-[36px]'/>

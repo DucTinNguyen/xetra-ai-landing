@@ -8,11 +8,11 @@ import { Suspense } from "react";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://dashboard.cellprotocol.science/"),
-  title: "THE FUTURE OF DECENTRALIZED SCIENCE",
-  description: "Discover the next wave of research: blockchain powered and boundless",
+  title: "No Code. No Boundaries.Infinite Creativity.",
+  description: "Turn your AI dreams into reality with Xetra AI - no coding, no limits, just unstoppable innovation on a censorship-resistant blockchain.",
   openGraph: {
-    title: "THE FUTURE OF DECENTRALIZED SCIENCE",
-    description: "Discover the next wave of research: blockchain powered and boundless",
+    title: "No Code. No Boundaries.Infinite Creativity.",
+    description: "Turn your AI dreams into reality with Xetra AI - no coding, no limits, just unstoppable innovation on a censorship-resistant blockchain.",
     url: new URL("https://dashboard.cellprotocol.science/")
   }
 };
@@ -43,18 +43,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <title>THE FUTURE OF DECENTRALIZED SCIENCE</title>
+        <title>No Code. No Boundaries.Infinite Creativity.</title>
         <meta
           name="description"
-          content="Discover the next wave of research: blockchain powered and boundless"
+          content="Turn your AI dreams into reality with Xetra AI - no coding, no limits, just unstoppable innovation on a censorship-resistant blockchain."
         />
         <meta property="og:image" content="./opengraph-image.png"></meta>
         <meta property="og:url" content="https://dashboard.cellprotocol.science"></meta>
-        <meta property="og:title" content="THE FUTURE OF DECENTRALIZED SCIENCE"></meta>
+        <meta property="og:title" content="No Code. No Boundaries.Infinite Creativity."></meta>
         <meta property="og:site_name" content="https://dashboard.cellprotocol.science"></meta>
         <meta
           property="og:description"
-          content="Discover the next wave of research: blockchain powered and boundless"
+          content="Turn your AI dreams into reality with Xetra AI - no coding, no limits, just unstoppable innovation on a censorship-resistant blockchain."
         />
         <link
           rel="apple-touch-icon"

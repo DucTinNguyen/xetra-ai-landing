@@ -6,9 +6,9 @@ import Image from 'next/image';
 import btTab from '@/icon/button-tabs.svg'
 const Decentralize = () => {
     const text = [
-        'Effortlessly Setup with no-code and AI',
-        'Execute, monitor and analyze real-time data',
-        'Automate logic across multiple chains'
+        'Set Up Easily with No-Code and AI',
+        'Run, Monitor, and Analyze Data in Real-Time',
+        'Sync and Automate Logic Across Multiple Blockchains'
     ]
     return (
         <main className='lg:h-[340px] w-full relative my-[100px]'>
@@ -24,8 +24,8 @@ const Decentralize = () => {
             </div>
             <div className='bg-[#1B1B1B] py-10 px-4 lg:px-0 lg:py-20 h-full'>
                 <div className='w-full lg:max-w-[1200px] 2xl:max-w-[1340px] h-full mx-auto relative py-6 lg:h-[1072px]'>
-                    <h2 className='text-[#F5F5F7] text-[32px] font-medium tracking-[-0.64px] mb-10 px-4 lg:px-0'>Decentralized automation for businesses across multiple blockchains</h2>
-                    <div className='flex flex-col lg:flex-row lg:items-center gap-5'>
+                    <h2 className='text-[#F5F5F7] text-[32px] font-medium tracking-[-0.64px] mb-10 px-4 lg:px-0'>Decentralized Business Automation Across Blockchains</h2>
+                    <div className='flex flex-col lg:flex-row lg:items-center gap-3'>
                         {text.map((item, index) => {
                             return <div key={index} className='flex flex-col lg:flex-row lg:items-center gap-4 lg:gap-10 px-4 lg:px-0'>
                                 <div>

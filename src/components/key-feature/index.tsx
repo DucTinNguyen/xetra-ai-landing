@@ -22,25 +22,25 @@ const KeyFeature = () => {
         },
         {
             icon: menozation,
-            title: 'Monetization'
+            title: 'Profit'
         }
     ]
 
     const product = [
         {
             img: feature1,
-            title: 'Create',
-            des: 'Easily deploy AI dApps in 3 clicks – no code necessary and secured through censorship resistant AI infrastructure!'
+            title: 'Build',
+            des: 'Build powerful AI dApps in just 3 clicks – no coding needed, with rock-solid, censorship-resistant security!'
         },
         {
             img: feature2,
-            title: 'Deploy',
-            des: 'Reach a global audience through our LoveAI app store, WhatsApp, and Telegram.'
+            title: 'Launch',
+            des: 'Deploy and go live with your AI dApps in seconds, scaling across platforms with global reach and robust security.'
         },
         {
             img: feature3,
-            title: 'Monetize',
-            des: 'Monetize your AI dApps and earn tokens based on user engagement.'
+            title: 'Earn Money',
+            des: 'Profit from your AI dApps by earning tokens from every user transaction.'
         }
     ]
 
@@ -50,10 +50,10 @@ const KeyFeature = () => {
               <div className='flex flex-col lg:flex-row lg:justify-between lg:items-center px-4 lg:px-0'>
                   <div className='w-full lg:w-[379px]'>
                       <BtnCustom icon={key} title='Key Features' className='w-[146px] h-[36px]' />
-                      <p className='text-[32px] lg:text-[40px] leading-[32px] lg:leading-[46px] text-[#0E121B] font-semibold tracking-[-0.8px] mt-4'>Your best choice for AI dApps home suite</p>
+                      <p className='text-[32px] lg:text-[40px] leading-[32px] lg:leading-[46px] text-[#0E121B] font-semibold tracking-[-0.8px] mt-4'>The Perfect Home for Your AI dApps</p>
                   </div>
                   <div className='w-full lg:w-[567px] my-4 lg:my-0'>
-                      <p className='text-[#666] font-inter text-sm font-normal'>Quickly create, deploy, and profit from AI applications without coding, while ensuring security and decentralization with blockchain integration.</p>
+                      <p className='text-[#666] font-inter text-sm font-normal'>Easily build, launch, and earn money from AI apps without coding, all while ensuring security and decentralisation through blockchain integration.</p>
                       <ul className='flex flex-wrap mt-4 gap-3'>
                           {list.map((item, index) => {
                               return (
@@ -69,8 +69,8 @@ const KeyFeature = () => {
               <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-[60px] px-4'>
                   {product.map((product, index) => { 
                       return <div key={index} className='rounded-[20px] border border-[#EAEAEA] bg-[#FAFAFA] pt-4'>
-                          <figure className='flex justify-center'>
-                              <Image src={product.img} alt='' />
+                          <figure className='flex justify-center h-[248px]'>
+                              <Image src={product.img} alt='' objectFit='cover' objectPosition='center' />
                           </figure>
                           <div className='px-8 pb-8 mt-6'>
                               <p className='text-[#0E121B] text-lg font-semibold font-inter'>{product.title}</p>

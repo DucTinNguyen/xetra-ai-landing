@@ -45,13 +45,6 @@ const Footer = () => {
               <section className='flex flex-col gap-8 lg:flex-row px-4 lg:px-0 items-start justify-between'>
                   <div className='flex flex-col gap-3 px-4 lg:px-0 w-full lg:w-[320px]'>
                       <Image src={logoFooter} alt='logo' />
-                      <p className='text-[#D8D8D8] text-lg font-medium'>Stay connected for the latest news</p>
-                      <p className='text-sm text-[#AEAEAE] font-normal'>Join our newsletter to receive updates on new features and releases.</p>
-                      <form className='rounded-[6px] overflow-hidden h-10 flex'>
-                          <input type="email" placeholder='Enter your email' className='p-3 grow bg-[#F5F5F7] h-full border-none outline-none text-black placeholder:text-[#666] font-inter text-sm font-normal' />
-                          <button className='py-[10px] h-full inline-block w-[91px] text-sm px-3 bg-[#FF6600] text-[#FFF1EB] font-inter font-medium'>Subscribe</button>
-                      </form>
-                      <p className='text-sm text-[#666] font-normal'>By subscribing, you agree to our Privacy Policy and consent to receive updates from our company</p>
                   </div>
                   <div className='w-full lg:w-fit px-4 lg:px-0'>
                       <div className='flex justify-between w-full lg:grid lg:grid-cols-3 lg:gap-[120px] font-inter'>

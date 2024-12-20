@@ -25,7 +25,7 @@ const Explore = () => {
                     <span className='text-[#0E121B]'>for your dApps</span>
                 </p>
             ),
-            description: 'Connect apps in node-editor. Setting up bots, executing trades, deploying tokens — all made easy and without coding with an AI assistant.'
+            description: 'Power your dApps with 300+ logic blocks, speeding up development without complex coding. apps in node-editor. Setting up bots, executing trades, deploying tokens — all made easy and without coding with an AI assistant.'
         },
         {
             image: explore2,
@@ -33,12 +33,11 @@ const Explore = () => {
             border: 'border-[rgba(241,215,137,0.24)]',
             title: (
                 <p className='font-inter text-base font-semibold mt-8 mb-2'>
-                    <span className='text-[#0E121B]'>Ask</span>
+                    <span className='text-[#0E121B]'>Build faster with</span>
                     <span className='text-[#FF8447]'> AI assistant </span>
-                    <span className='text-[#0E121B]'>to build lightning fast</span>
                 </p>
             ),
-            description: 'Create wallets in one click and manage its connections to your dApps. Automate the top up of primary contract balance for graphs executions.'
+            description: 'Let the AI build your project, turning your ideas into reality at lightning speed with zero effort required.'
         },
         {
             image: explore3,
@@ -46,20 +45,19 @@ const Explore = () => {
             border: 'border-[rgba(168,147,253,0.12)]',
             title: (
                 <p className='font-inter text-base font-semibold mt-8 mb-2'>
-                    <span className='text-[#0E121B]'>Use</span>
+                    <span className='text-[#0E121B]'>Tap into community-built</span>
                     <span className='text-[#7D52F4]'> templates</span>
-                    <span className='text-[#0E121B]'> made by our community</span>
                 </p>
             ),
-            description: 'Get real-time data about your dApp usage and manage your dApps executions.'
+            description: 'Unlock endless possibilities by using Xetra AI ready-made templates, speeding up your development.'
         }
     ];
   return (
       <main className='my-[100px]'>
           <section className='w-full lg:max-w-[1200px] 2xl:max-w-[1340px] h-full mx-auto relative py-6 lg:h-[1072px]'>
               <div className='w-full lg:h-[702px] bg-explore rounded-[32px] pt-12 px-4 lg:px-0'>
-                  <h2 className='text-[#0E121B] text-[32px] lg:text-[40px] font-semibold text-start lg:text-center'>Build your dApps with no-code and AI</h2>
-                  <p className='text-base text-[#666] font-inter w-full lg:w-[658px] mx-auto text-start lg:text-center my-4'>Create dApps in no-code node-editor. Use built-in AI chat to develop your future app logic:bots, trades, deploying tokens — all made easy and without coding.</p>
+                  <h2 className='text-[#0E121B] text-[32px] lg:text-[40px] font-semibold text-start lg:text-center'>No-Code, AI-Powered dApp Builder</h2>
+                  <p className='text-base text-[#666] font-inter w-full lg:w-[658px] mx-auto text-start lg:text-center my-4'>Create dApps with ease using a no-code node editor and Xetra AI chat - shape your app logic for bots, trades, and token deployment in minute without writing a single line of code.</p>
                   <div className='flex items-center justify-start lg:justify-center gap-3 mb-12'>
                       <BtnGradient title='Start Building' className='w-[123px]' />
                       <BtnNormal title='Explore Marketplace' className='w-[169px]'/>
