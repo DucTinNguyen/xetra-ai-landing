@@ -26,7 +26,7 @@ const Explore = () => {
                     <span className='text-[#0E121B]'>for your dApps</span>
                 </p>
             ),
-            description: 'Power your dApps with 300+ logic blocks, speeding up development without complex coding. apps in node-editor. Setting up bots, executing trades, deploying tokens — all made easy and without coding with an AI assistant.'
+            description: 'Power your dApps with 300+ logic blocks, speeding up development without complex coding.'
         },
         {
             image: explore2,
