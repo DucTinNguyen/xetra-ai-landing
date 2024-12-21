@@ -32,7 +32,7 @@ const Footer = () => {
         { href: 'https://t.me/xetra', label: 'Telegram', icon: telegram },
         { href: 'https://x.com/xetra', label: 'X', icon: x },
         { href: 'https://medium.com/xetra', label: 'Medium', icon: medium },
-        { href: 'https://github.com/xetra', label: 'GitHub', icon: github },
+        { href: 'https://github.com/xetra', label: 'Docs', icon: github },
     ];
     const infoLinks = [
         { href: '/#', label: 'Etherscan' },
