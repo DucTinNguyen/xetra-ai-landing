@@ -8,7 +8,25 @@ import national from '@/icon/naltional.svg'
 import medium from '@/icon/medium.svg'
 import Image from 'next/image'
 
-const socials = [telegram, x, medium, github]
+// const socials = [telegram, x, medium, github]
+const socials = [
+  {
+    link: '#',
+    icon: telegram
+  },
+  {
+    link: '#',
+    icon: x
+  },
+  {
+    link: '#',
+    icon: medium
+  },
+  {
+    link: 'https://docs.xetra.io',
+    icon: github
+  }
+]
 const InformationSocial = () => {
   return (
     <main className="bg-[#1B1B1B] h-[44px] lg:h-10">
