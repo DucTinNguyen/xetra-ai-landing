@@ -29,6 +29,7 @@ const Footer = () => {
   const socialLinks = [
     { href: "https://t.me/XetraAI", label: "Telegram", icon: telegram },
     { href: "https://x.com/XetraAI", label: "X", icon: x },
+    { href: "https://dapp.xetra.io/", label: "Dapp", icon: medium },
     { href: "https://docs.xetra.io/", label: "Docs", icon: github },
   ];
   const infoLinks = [
