@@ -14,16 +14,23 @@ import Link from "next/link";
 
 const Footer = () => {
   const chainLinks: FooterLink[] = [
-    { href: "/about", label: "About Xetra" },
-    { href: "/partners", label: "Partners" },
-    { href: "/features", label: "Key Features" },
-    { href: "/why-xetra", label: "Why Xetra AI" },
+    { href: "#about", label: "About Xetra" },
+    { href: "#features", label: "Key Features" },
+    {
+      href: "#products",
+      label: "Products",
+    },
+    {
+      href: "#resources",
+      label: "Resources",
+    },
+    { href: "#why-xetra", label: "Why Xetra AI" },
   ];
 
   const productLinks: FooterLink[] = [
-    { href: "/chat-bot", label: "AI Chat Bot" },
-    { href: "/ide", label: "No-code IDE" },
-    { href: "/marketplace", label: "Marketplace" },
+    { href: "https://dapp.xetra.io", label: "AI Chat Bot" },
+    { href: "https://dapp.xetra.io/?type=create", label: "No-code IDE" },
+    { href: "https://dapp.xetra.io/?type=store", label: "Marketplace" },
   ];
 
   const socialLinks = [
