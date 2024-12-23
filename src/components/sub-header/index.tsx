@@ -5,7 +5,7 @@ import telegram from "@/icon/telegram.svg";
 import github from "@/icon/github.svg";
 import x from "@/icon/x.svg";
 import national from "@/icon/naltional.svg";
-import medium from "@/icon/medium.svg";
+import dapp from "@/icon/dapp.svg";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -23,6 +23,10 @@ const socials = [
     link: "https://docs.xetra.io",
     icon: github,
   },
+  {
+    link: "https://dapp.xetra.io",
+    icon: dapp,
+  }
 ];
 const InformationSocial = () => {
   return (

@@ -4,7 +4,7 @@ import Image from "next/image";
 import telegram from "@/icon/telegram.svg";
 import github from "@/icon/github.svg";
 import x from "@/icon/x.svg";
-import medium from "@/icon/medium.svg";
+import dapp from "@/icon/dapp.svg";
 interface FooterLink {
   href: string;
   label: string;
@@ -29,7 +29,7 @@ const Footer = () => {
   const socialLinks = [
     { href: "https://t.me/XetraAI", label: "Telegram", icon: telegram },
     { href: "https://x.com/XetraAI", label: "X", icon: x },
-    { href: "https://dapp.xetra.io/", label: "Dapp", icon: medium },
+    { href: "https://dapp.xetra.io/", label: "Dapp", icon: dapp },
     { href: "https://docs.xetra.io/", label: "Docs", icon: github },
   ];
   const infoLinks = [
