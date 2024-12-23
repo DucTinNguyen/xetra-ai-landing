@@ -7,6 +7,7 @@ import x from "@/icon/x.svg";
 import national from "@/icon/naltional.svg";
 import medium from "@/icon/medium.svg";
 import Image from "next/image";
+import Link from "next/link";
 
 // const socials = [telegram, x, medium, github]
 const socials = [
@@ -46,12 +47,19 @@ const InformationSocial = () => {
             <figure className="flex gap-x-4 ml-4">
               {socials.map((item, index) => {
                 return (
-                  <Image
-                    src={item.icon}
+                  <Link
+                    href={item.link}
                     key={index}
-                    alt={""}
-                    className="cursor-pointer"
-                  />
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <Image
+                      src={item.icon}
+                      key={index}
+                      alt={""}
+                      className="cursor-pointer"
+                    />
+                  </Link>
                 );
               })}
             </figure>
