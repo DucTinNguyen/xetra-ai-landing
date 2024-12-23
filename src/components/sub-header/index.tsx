@@ -47,7 +47,7 @@ const InformationSocial = () => {
               {socials.map((item, index) => {
                 return (
                   <Image
-                    src={item}
+                    src={item.icon}
                     key={index}
                     alt={""}
                     className="cursor-pointer"
