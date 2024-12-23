@@ -20,10 +20,6 @@ const socials = [
     icon: x,
   },
   {
-    link: "https://dapp.xetra.io/",
-    icon: medium,
-  },
-  {
     link: "https://docs.xetra.io",
     icon: github,
   },

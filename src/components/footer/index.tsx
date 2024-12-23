@@ -121,6 +121,8 @@ const Footer = () => {
                     <li key={link.label}>
                       <Link
                         href={link.href}
+                        rel="noreferrer"
+                        target="_blank"
                         className="hover:text-[#FF6600] transition-colors py-2 text-[#D8D8D8] flex items-center gap-[10px]"
                       >
                         <Image src={link.icon} alt="icon" />
