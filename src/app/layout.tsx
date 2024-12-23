@@ -48,7 +48,7 @@ export default function RootLayout({
           name="description"
           content="Turn your AI dreams into reality with Xetra AI - no coding, no limits, just unstoppable innovation on a censorship-resistant blockchain."
         />
-        <meta property="og:image" content="./opengraph-image.png"></meta>
+        <meta property="og:image" content="./opengraph-image.jpg"></meta>
         {/* <meta property="og:url" content="https://dashboard.cellprotocol.science"></meta> */}
         <meta property="og:title" content="No Code. No Boundaries.Infinite Creativity."></meta>
         {/* <meta property="og:site_name" content="https://dashboard.cellprotocol.science"></meta> */}
