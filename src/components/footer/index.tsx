@@ -9,7 +9,6 @@ interface FooterLink {
   href: string;
   label: string;
 }
-import { Github, Globe, MessagesSquare } from "lucide-react";
 import Link from "next/link";
 
 const Footer = () => {
@@ -30,7 +29,7 @@ const Footer = () => {
   const productLinks: FooterLink[] = [
     { href: "https://dapp.xetra.io", label: "AI Chat Bot" },
     { href: "https://dapp.xetra.io/?type=create", label: "No-code IDE" },
-    { href: "https://dapp.xetra.io/?type=store", label: "Marketplace" },
+    { href: "https://dapp.xetra.io/?type=store&tag=All", label: "Marketplace" },
   ];
 
   const socialLinks = [

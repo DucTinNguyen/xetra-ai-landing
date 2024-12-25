@@ -62,7 +62,7 @@ const Explore = () => {
                   <p className='text-base text-[#666] font-inter w-full lg:w-[658px] mx-auto text-start lg:text-center my-4'>Create dApps with ease using a no-code node editor and Xetra AI chat - shape your app logic for bots, trades, and token deployment in minute without writing a single line of code.</p>
                   <div className='flex items-center justify-start lg:justify-center gap-3 mb-12'>
                       <BtnGradient title='Start Building' className='w-[123px]' />
-                      <Link href={'https://dapp.xetra.io/?type=store'} target='_blank' className={`w-[169px] bg-get-started group border border-[#09090B/80%] rounded-lg h-[36px] shadow-[0px_1px_2px_0px_rgba(9,9,11,0.12), 0px_0px_0px_1p_rgba(9, 9, 11, 0.08)]`}>
+                      <Link href={'https://dapp.xetra.io/?type=store&tag=All'} target='_blank' className={`w-[169px] bg-get-started group border border-[#09090B/80%] rounded-lg h-[36px] shadow-[0px_1px_2px_0px_rgba(9,9,11,0.12), 0px_0px_0px_1p_rgba(9, 9, 11, 0.08)]`}>
                           <span className='w-full h-full group-hover:bg-black group-hover:text-white transition-all ease-linear duration-100  bg-white font-medium text-sm rounded-lg font-inter flex items-center justify-center'>Explore Marketplace</span>
                       </Link>
                   </div>
