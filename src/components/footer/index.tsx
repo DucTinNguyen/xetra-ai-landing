@@ -39,10 +39,10 @@ const Footer = () => {
     { href: "https://docs.xetra.io/", label: "Docs", icon: github },
   ];
   const infoLinks = [
-    { href: "/#", label: "Etherscan" },
-    { href: "/ide", label: "Dexscreener" },
-    { href: "/marketplace", label: "Dextools" },
-    { href: "/marketplace", label: "Buy" },
+    { href: "https://etherscan.io/address/0x0f48E776a4D983C0dDDF4C0c946D66e3786F134f", label: "Etherscan" },
+    { href: "#", label: "Dexscreener" },
+    { href: "#", label: "Dextools" },
+    { href: "#", label: "Buy" },
   ];
 
   const backToTop = () => {
