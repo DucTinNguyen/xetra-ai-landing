@@ -40,9 +40,9 @@ const Footer = () => {
   ];
   const infoLinks = [
     { href: "https://etherscan.io/address/0x0f48E776a4D983C0dDDF4C0c946D66e3786F134f", label: "Etherscan" },
-    { href: "#", label: "Dexscreener" },
-    { href: "#", label: "Dextools" },
-    { href: "#", label: "Buy" },
+    { href: "https://dexscreener.com/ethereum/0x465802f1d78a0af10f17d2acce5c9bef76aad885", label: "Dexscreener" },
+    { href: "https://www.dextools.io/app/en/ether/pair-explorer/0x465802f1d78a0af10f17d2acce5c9bef76aad885?t=1735232319306", label: "Dextools" },
+    { href: "https://app.uniswap.org/explore/tokens/ethereum/0x0f48e776a4d983c0dddf4c0c946d66e3786f134f", label: "Buy" },
   ];
 
   const backToTop = () => {
@@ -108,6 +108,7 @@ const Footer = () => {
                     <li key={link.label}>
                       <Link
                         href={link.href}
+                        target="_blank"
                         className="hover:text-[#FF6600] transition-colors py-2 text-[#D8D8D8]"
                       >
                         {link.label}
