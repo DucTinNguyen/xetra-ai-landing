@@ -16,7 +16,7 @@ const Ecosystem = () => {
                       <Image src={ecosystem1} alt='' fill />
                       <div className='relative p-8 lg:p-12 font-inter text-white'>
                           <h5 className='text-2xl font-semibold'>Xetra AI assistant</h5>
-                          <p className='text-[#D8D8D8] text-base font-normal mt-3 mb-6'>Develop your dApps with a personal AI assistant, combining the power of OpenAI and Xetra Engine.</p>
+                          <p className='text-[#D8D8D8] text-base font-normal mt-3 mb-6'>Develop your dApps with a personal AI assistant, the power of Xetra Engine.</p>
                           <Link href={'https://dapp.xetra.io/?type=create'} target='_blank' className='px-4 py-2 bg-white text-[#1B1B1B] capitalize font-semibold text-sm rounded-lg shadow-[0px_1px_2px_0px_rgba(9,9,11,0.12),0px_0px_0px_1px_rgba(9,9,11,0.08)]'>try now</Link>
                       </div>
                   </div>
