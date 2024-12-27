@@ -16,7 +16,7 @@
   }
 }
 
-body{
+body {
   font-family: var(--chakra_petch);
   /* -webkit-font-smoothing: "antialiased";
   -moz-osx-font-smoothing: "grayscale"" */
@@ -44,25 +44,29 @@ body{
   scrollbar-width: none;
   /* Firefox */
 }
-.text-clip{
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.50) 0%, #FFF 50%, rgba(255, 255, 255, 0.35) 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+.text-clip {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.5) 0%,
+    #fff 50%,
+    rgba(255, 255, 255, 0.35) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.text-btn-custom{
-  background: linear-gradient(90deg, #FF6161 0%, #FF5100 52.2%, #F90 103.94%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+.text-btn-custom {
+  background: linear-gradient(90deg, #ff6161 0%, #ff5100 52.2%, #f90 103.94%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.text-banner{
-text-align: center;
--webkit-text-stroke-width: 2px;
+.text-banner {
+  text-align: center;
+  -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: rgba(135, 135, 135, 0.32);
-font-family: "Chakra Petch";
-font-style: normal;
-font-weight: 600;
+  font-style: normal;
+  font-weight: 600;
 }
 @layer base {
   :root {

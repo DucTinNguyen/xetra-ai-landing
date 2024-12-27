@@ -38,7 +38,7 @@ const Banner = () => {
       {/* banner content */}
       <section className="w-full lg:max-w-[1200px] 2xl:max-w-[1340px] mx-auto relative z-10">
         <div className="px-4">
-          <h2 className="text-[#0E121B] text-[40px] lg:text-[64px] font-normal leading-[46px] lg:leading-[84px] text-banner">
+          <h2 className="text-[#0E121B] text-[40px] lg:text-[64px] font-normal leading-[46px] lg:leading-[84px] text-banner font-chakra_petch">
             No Code. <br className=" block md:hidden" />
             No Limits. <br /> Infinite Creativity.
           </h2>
